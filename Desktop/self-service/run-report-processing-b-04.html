@@ -9,6 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     
+
     <link rel="icon" href="../../favicon.ico">
 
     <title>Run Report | exp.o Visibility</title>
@@ -27,8 +28,6 @@
     <!-- Custom fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
-    
-
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -38,6 +37,7 @@
   </head>
 
   <body>
+
 
     <!-- Fixed navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -89,7 +89,7 @@
       <h2>Shipments</h2>
 
       <!-- Button trigger modal -->
-      <p><a href="run-report-processing-02.html" type="button" class="btn btn-sm btn-primary">Run</a>
+      <p><a href="run-report-processing-b-02.html" type="button" class="btn btn-sm btn-primary">Run</a>
       <button type="button" class="btn btn-sm btn-default">Edit</button>
       <button type="button" class="btn btn-sm btn-default">Save</button></p>
 
@@ -105,6 +105,8 @@
               <div class="progress">
                 <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
               </div><!--/processing indicator-->
+
+              <div class="text-center"><a href="run-report-processing-04.html" type="button" class="btn btn-sm btn-default" data-dismiss="modal">Cancel</a></div>
 
             </div>
             
@@ -124,7 +126,57 @@
         </div>
       </div><!--/filters-->
 
+
       
+       <!--results-->
+
+       <h3>Results</h3>
+
+       <p><button type="button" class="btn btn-sm btn-default">Export</button>
+      <button type="button" class="btn btn-sm btn-default">Share</button></p>
+
+        <div class="panel panel-default">
+          <table class="table table-hover"> 
+              <thead> 
+                  <tr>
+                      <th>Origin</th> 
+                      <th>Destination</th>
+                      <th>Expeditors reference</th> 
+                      <th>Status</th>
+                      <th>Primary reference</th>
+
+                  </tr>
+              </thead> 
+              <tbody> 
+                  <tr> 
+                      <td>Shanghai, China (SHA)</td>
+                      <td>New York, NY (NYC)</td>
+                      <td><a href="#">1234567890</a></td>
+                      <td>In Transit</td>
+                      <td>987654321</td>
+                      
+                </tr> 
+                  <tr> 
+                      <td>Shanghai, China (SHA)</td>
+                      <td>New York, NY (NYC)</td>
+                      <td><a href="#">1234567890</a></td>
+                      <td>In Transit</td>
+                      <td>987654321</td>
+                  </tr>
+                  <tr> 
+                      <td>Shanghai, China (SHA)</td>
+                      <td>New York, NY (NYC)</td>
+                      <td><a href="#">1234567890</a></td>
+                      <td>In Transit</td>
+                      <td>987654321</td>
+                </tr> 
+
+                  
+              </tbody> 
+          </table>
+        </div>
+        <!--/results--> 
+
 
     </div> <!-- /container -->
 
@@ -141,7 +193,7 @@
 
     <!--custom JavaScript-->
     
-
+  
 
   </body>
 </html>
